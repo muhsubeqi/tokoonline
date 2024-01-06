@@ -1,0 +1,34 @@
+/* your styles go here */
+.dark-mask.mask-primary {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.image-container {
+    overflow: hidden;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+}
+
+.image-member {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .image-container {
+        overflow: hidden;
+        border-radius: 100%;
+        height: 350px;
+        width: 100%;
+    }
+
+    .image-member {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+}
